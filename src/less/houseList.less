@@ -1,0 +1,94 @@
+.HL-header{
+    background: white;
+    .fs(15);
+    .h(50);
+    .lh(50);
+    .padding(0,15,0,15);
+    img{
+        .w(18);
+        .h(18);
+    }
+    .seach{
+        .h(25);
+        .lh(25);
+        .w(200);
+        text-align:center;
+        .margin(0,0,0,48);
+        .border-radius(15);
+        background: rgb(240, 237, 237)
+    }
+}
+.HL-filtrate{
+    display: flex;
+    .h(40);
+    border:1px solid #e8e8e8;
+    background-color: transparent!important;
+    li{
+        text-align: center;
+        .lh(40);
+        flex:4;
+        float: left;
+        color:#999;
+        font-weight: 400;
+        .fs(15);
+        img{
+            .w(13);
+            .h(6);
+        }
+    }
+}
+.HL-buildingListContent{
+    background: white;
+    .HL-buildingListContentItem{
+        border-bottom: 1px solid #ccc;
+        .padding(0,0,10,15);
+        position: relative;
+        img{
+            .padding(20,0,0,0);
+            .w(115);
+            .h(85);
+            vertical-align: top;
+        }
+        .right{
+            .w(122.5);
+            .h(135);
+            vertical-align: top;
+            .HL-buildingListContentItemTitle{
+                display: inline-block;
+                margin:0;
+                .padding(20,0,0,15);
+                color: #666;
+                .fs(17);
+            }
+            .U{
+                position: absolute;
+                .left(10);
+                .top(145);
+                .margin(-100,0,0,120);
+                display: inline-block;
+                 u:first-child{
+                     border:none;
+                }
+                u{
+                    text-decoration: none;
+                    display: inline-block;
+                    .fs(14);
+                    color:#aaa;
+                    .padding(0,10,0,10);
+                    border-left: 1px solid #ccc;
+                }
+            }
+           
+            .HL-buildingListContentItemPrice{
+                position: absolute;
+                .top(70);
+                .left(10);
+                display: inline-block;
+                .margin(0,0,-50,120);
+                .fs(13);
+                color: #ff802c;
+                .paddingleft(10)
+            }
+        }
+    }
+}

@@ -1,0 +1,162 @@
+body{
+    background: white;
+}
+.home{
+    background: #fff;
+    .home-head{
+        .fs(15);
+        .h(50);
+        .lh(50);
+        .padding(0,15,0,15);
+       
+        .down{
+            .fs(11);
+            font-weight: 400;
+            color:#333;
+            .padding(0,0,0,10);
+        }
+        .seach{
+            .h(25);
+            .lh(25);
+            .w(200);
+            text-align:center;
+            .margin(0,0,0,28);
+            .border-radius(15);
+            background: rgb(240, 237, 237)
+        }
+        input::-webkit-input-placeholder,
+        textarea::-webkit-input-placeholder {
+            padding-left: 15px;
+            .fs(14);
+            color: #ccc;
+        }
+        .list{
+            .fs(18);
+            float: right;
+            .lh(50);
+            .margin(15,0,0,0);
+        }
+        
+    }
+    .banner{
+        .bimg{
+            width:100%;
+            .h(200);
+            float: left;
+        }
+    }
+    .buildingType1 {
+        width: 100%;
+        .h(120);
+        background-color: #fff;
+        .h-item{
+            overflow: hidden;
+            .margin(27.5,28.5,27.5,28.5);
+            li:first-child{
+                .paddingleft(0);
+                background: #fff;
+            }
+            li{
+                float: left;
+                text-align: center;
+                .w(60);
+                .h(95);
+                .padding(0,0,0,25);
+                background: #fff;
+                img{
+                    .w(60);
+                    .h(60);
+                }
+                .l-title{
+                    .fs(14);
+                    padding-top: 17px;
+                    display: inline-block;
+                    align-self: center !important;
+                    color: #666;
+                }
+            }
+        }
+    }
+    .h-bottom{
+        width: 100%;
+        .h(15);
+        background: #f5f5f9;
+    }
+}
+
+    .hot-house{
+        .paddingleft(15);
+        .h(50);
+        font-weight: 400;
+        .fs(15);
+        .lh(50);
+        color: #333;
+        border-bottom:1px solid rgb(221, 221, 221);
+        .I1-more{
+            float: right;
+            .fs(14);
+            color: rgb(173, 173, 173);
+            .margin(0,15,0,0) !important;
+        }
+    }
+.buildingType{
+    background: white;
+    
+    .buildingListContent{
+        .padding(0,0,0,15);
+        .buildingListContentItem{
+            border-bottom: 1px solid #ccc;
+            .padding(0,0,10,0);
+            position: relative;
+            img{
+                .padding(20,0,0,0);
+                .w(115);
+                .h(85);
+                vertical-align: top;
+            }
+            .right{
+                .w(122.5);
+                .h(135);
+                vertical-align: top;
+                .buildingListContentItemTitle{
+                    display: inline-block;
+                    margin:0;
+                    .padding(20,0,0,15);
+                    color: #666;
+                    .fs(17);
+                }
+                .U{
+                    position: absolute;
+                    left: 0;
+                    .top(145);
+                    .margin(-100,0,0,120);
+                    display: inline-block;
+                     u:first-child{
+                         border:none;
+                    }
+                    u{
+                        text-decoration: none;
+                        display: inline-block;
+                        .fs(14);
+                        color:#aaa;
+                        .padding(0,10,0,10);
+                        border-left: 1px solid #ccc;
+                    }
+                }
+               
+                .buildingListContentItemPrice{
+                    position: absolute;
+                    .top(70);
+                    left: 0;
+                    display: inline-block;
+                    .margin(0,0,-50,120);
+                    .fs(13);
+                    color: #ff802c;
+                    .paddingleft(10)
+                }
+            }
+        }
+    }
+
+}
+

@@ -1,0 +1,136 @@
+// @import './_mixin';
+// .Det{
+    .Det-header{
+        position: absolute;
+        .top(0);
+        .left(0);
+        z-index: 10;
+        .h(50);
+        .lh(50);
+        .margin(0,0,0,20);
+        img{
+            .w(18);
+            .h(18);
+        }
+    }
+    
+    .am-wingblank,.am-wingblank-lg{
+        margin:0 !important;
+        width:100%;
+        .h(275);
+        .slider,.am-carousel{
+            width:100%;
+            .h(275);
+            .slider-frame{
+                width:100%;
+                .h(275);
+                margin:0 !important;
+                width:100% !important;
+                .h(275);
+                .slider-list{
+                    z-index: -1;
+                    margin:0 !important;
+                    width:100%;
+                    .h(275) !important;
+                    img{
+                        width:100%;
+                        .h(275);
+                    }
+                }
+            }
+        }
+    }
+
+.Det-price{
+    position: absolute;
+    .left(0);
+    .top(220);
+    .w(110);
+    .h(40);
+    .Det-background{
+        float: left;
+        .w(110);
+        .h(40);
+        background: #000;
+        opacity: 0.6;
+    }
+    .Det-content{
+        position: absolute;
+        color: #fff;
+        .fs(16);
+        .margin(10,0,0,10);
+        // float: left;
+    }
+}
+.Det-buildingInfo{
+    background: white;
+    .padding(20,0,0,17);
+    .buildingInfo-top{
+        .fs(15);
+        color: #333;
+        .buildingInfo-title{
+            .padding(0,15,0,0);
+        }
+        s{
+            display: inline-block;
+            text-align: center;
+            .fs(12);
+            .w(35);
+            .h(18);
+            .lh(18);
+            .margin(0,15,0,0);
+            
+        }
+        s:nth-child(2){
+            background: rgba(255,128,44,.2);
+            color:#ff802c;
+        }
+        s:nth-child(3){
+            background: rgba(26,201,114,.2);
+            color:rgb(26,201,114);
+        }
+        u{
+            text-decoration: none;
+            float: right;
+            color: #ff802c;
+            .margin(0,20,0,0);
+            .fs(13);
+        }
+    }
+    .buildingInfo-price{
+        .padding(20,0,10,0); 
+        .fs(12);
+        color: #ff802c;
+        img{
+            .w(13);
+            .h(13);
+        }
+    }
+}
+.Det-Tabs{
+    .margin(10,0,0,0);
+    .am-tabs-default-bar-tab{
+        color: #333;
+        .fs(15);
+    }
+    .am-tabs-default-bar-underline{
+        border: 1px rgb(26,201,114) solid;
+    }
+    .am-tabs-content-wrap .am-tabs-content-wrap-animated{
+        .w(360);
+        height: 100%;
+    }
+    .Det-new{
+    //     .w(360);
+    //     height: 100%;
+    //     text-align: left;
+    //     p{
+    //         .w(360);
+    //         height: 100%;
+    //     }
+    //     overflow: inherit;
+    // }
+    }
+}
+
+    
